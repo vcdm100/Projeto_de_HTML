@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+	<title>Contato - Meu primeiro site de HTML</title>
+	<meta charset="utf-8">
+
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 0 auto; width: 900px;">
+
+	<div style="background-color: blue; text-align: center; margin: 3px; padding: 10px; color: white;">
+
+		<h1 tabindex="1">Meu Primeiro Site</h1>
+
+		<p tabindex="2">Criando meu projeto de HTML</p>
+
+	</div>
+
+	<table>
+		<tbody>
+			<tr style="text-align: center; background-color: green;">
+				<td tabindex="3" width="600" style="padding: 5px;"><a style="color: white; text-decoration: none;" href="meu_primeiro_projeto.html" alt="Home">Home</a></td>
+				<td tabindex="4" width="600"><a style="padding: 5px;"><a style="color: white; text-decoration: none;" href="fotos.html" alt="Fotos">Fotos</a></td>
+				<td tabindex="5" width="600"><a style="padding: 5px;"><a style="color: white; text-decoration: none;" href="noticias.html" alt="Notícias">Notícias</a></td>
+				<td tabindex="6" width="600"><a style="padding: 5px;"><a style="color: white; text-decoration: none;" href="contato.html" alt="Contato">Contato</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2 tabindex="7">Contato</h2>
+
+	<form action="envio.html" method="POST">
+		<fieldset style="padding: 15px">
+			<legend tabindex="8">Entre em contato</legend>
+			<div style="float: left; width: 50%">
+				<label tabindex="9">Nome completo:</label><br/>
+				<input tabindex="10" style="width: 90%" type="text" name="nome"/><br/><br/>
+				<label tabindex="11">Mora em cidade/estado:</label><br/>
+				<input tabindex="12" style="width: 90%" type="text" name="cidade"/><br/><br/>
+				<label tabindex="13">Seu número de celular:</label><br/>
+				<input tabindex="14" style="width: 90%" type="text" name="celular"/><br/><br/>
+				<label tabindex="15">Seu e-mail:</label><br/>
+				<input tabindex="16" style="width: 90%" type="text" name="email"/><br/><br/>
+			</div>
+			<div style="float: left; width: 50%">
+				<label tabindex="17">Assunto:</label><br/>
+				<input tabindex="18" style="width: 90%" type="text" name="assunto"/><br/><br/>
+				<label tabindex="19">Mensagem:</label><br/>
+				<textarea tabindex="20" cols="50" rows="6" name="mensagem"></textarea><br/><br/>
+				<input tabindex="20" type="submit" value="Enviar">
+				<input tabindex="21" type="reset" value="Apagar">
+			</div>
+		</fieldset>
+	</form>
+
+	<hr/>
+
+	<div style="text-align: center;">
+		Curso de HTML básico - SignaEdu - 2022 <br/>Aluno: Victor Cláudio
+	</div>
+	
+</body>
+</html>
